@@ -102,6 +102,8 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias xopen="xdg-open &>/dev/null"
 alias youtube="mpsyt"
+alias dc="cd"
+alias py="python"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
