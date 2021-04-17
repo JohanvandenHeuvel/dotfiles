@@ -2,7 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+# export ZSH=$HOME/.oh-my-zsh
+export ZSH=$HOME/dotfiles/oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -103,11 +104,9 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias xopen="xdg-open &>/dev/null"
 alias youtube="mpsyt"
 alias dc="cd"
-alias py="python"
+alias py="python3"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-source /home/johan/.config/broot/launcher/bash/br
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
