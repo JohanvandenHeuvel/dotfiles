@@ -105,6 +105,8 @@ alias xopen="xdg-open &>/dev/null"
 alias youtube="mpsyt"
 alias dc="cd"
 alias py="python3"
+alias master="cd ; cd Dropbox/Documents/Master"
+alias downloads="cd ; cd Downloads"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
